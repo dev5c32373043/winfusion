@@ -1,0 +1,38 @@
+{
+  "name": "win-fusion",
+  "version": "1.0.0",
+  "author": "dev5c32373043",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^3.1.0",
+    "@sentry/nextjs": "^7.66.0",
+    "@types/node": "20.5.0",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "dayjs": "^1.11.9",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.16",
+    "jotai": "^2.3.1",
+    "mongoose": "^7.4.3",
+    "next": "13.4.16",
+    "postcss": "8.4.28",
+    "react": "18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.45.4",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "daisyui": "^3.5.1",
+    "tailwindcss-animated": "^1.0.1"
+  }
+}
