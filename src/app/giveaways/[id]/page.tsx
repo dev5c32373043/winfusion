@@ -26,7 +26,6 @@ async function getGiveaway(id: string) {
   if (resp.status === 404) return null;
   if (resp.status !== 200) {
     throw new Error('Something went wrong');
-    return;
   }
 
   return resp.data;
